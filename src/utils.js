@@ -1,13 +1,13 @@
 /**
- * Display INNERHTML inside a div with class that contains 'second-element'. 
  * 1. Must start with document.getElementsByClassName("element") to get all elements
  * 2. Filter through the elements to get the one that includes className of 'second-element
+ * 3. display that div in console.log()
  * @returns 
  */
  export const rowOneText = () => {
   // must use code logic, no hard code
   const elementDivs = document.getElementsByClassName('element')
-
+  // console.log the div with class containing 'second-element'
    return ""
 }
 
